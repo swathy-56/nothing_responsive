@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'nothing-font';
+    src: url(font/nothing-font.otf) 
+        
+}
+@font-face {
+    font-family: 'NonDotFont';
+    src: url('font/Regular.otf');
+}
+
+.header{
+    height: 4em;
+    background-color: blue;
+}
+.btn{
+background-color: rgb(24, 24, 91);
+color: white;
+width: 400px;
+}
+
+.nothing{
+    font-family: 'nothing-font';
+    font-size: 25px;
+}
+.nav-link{
+    font-size: 20px;
+    font-family: 'NonDotFont';
+    font-weight: 500;
+    
+}
+.nav-link:hover{
+    border-bottom: 1px solid black;
+}
+.title h1{
+    font-size: 75px;
+    font-family: 'NonDotFont';
+}
+.body p{
+    font-size: 20px;
+    font-family: 'NonDotFont';
+}
+.vtext{
+    position: absolute;
+    font-size: 120px;
+    font-family: 'nothing-font';
+    margin: 0 -15px;
+    writing-mode: vertical-lr;
+    z-index: 1;
+}
+
+.footer{
+    background-color: black;
+}
+.footer p{
+    color: white;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    font-family: 'NonDotFont';
+    
+}
+.input-text{
+    background-color: black;
+    border: white;
+    border-radius: 5px;
+    height: 60px;
+    width: 80%;
+    outline: 1px;
+    color: white;
+    
+}
+.input::placeholder{
+    color: white;
+}
+#click{
+    font-family: 'nothing-font';
+    font-size: 35px;
+    background-color: black;
+    border: black;
+    color: white;
+    position: relative;
+    top: 4px;
+    right: 35px;
+    
+}
+@media (max-width:420px){
+    .title h1{
+        font-size: 40px;
+    }
+}
+@media (max-width:420px){
+    .body p{
+        font-size: 13px;
+    }
+}
+@media (max-width:420px){
+    .btn{
+       width: 300px;
+    }
+}
+@media (max-width:1200px){
+    .container{
+       padding-top: 0;
+       padding-bottom: 20px;
+    }
+}
+@media (max-width:1200px){
+    .vtext{
+       font-size: 50px;
+    }
+}
+@media (max-width:1200px){
+    .privacy a{
+       margin-right: 100px;
+    }
+}
+
